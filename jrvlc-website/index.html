@@ -1,0 +1,68 @@
+<!-- The Mobile Navigation Overlay -->
+<div class="mobile-nav-overlay" id="mobile-nav" role="dialog" hidden>
+    <div class="mobile-nav-container">
+        <div class="nav-header">
+            <h2 id="mobile-nav-title">Jinka RVLC Menu</h2>
+            <button class="nav-close-btn" aria-label="Close navigation menu">&times;</button>
+        </div>
+
+        <form class="nav-search" role="search">
+            <input type="search" placeholder="Search tests or services...">
+            <button type="submit" aria-label="Search">🔍</button>
+        </form>
+
+        <ul class="nav-list">
+            <li class="nav-item has-submenu">
+                <button class="submenu-toggle" aria-expanded="false" aria-controls="submenu-about">About Us</button>
+                <ul class="submenu" id="submenu-about" hidden>
+                    <li><a href="#">Our Mission & Vision</a></li>
+                    <li class="has-submenu">
+                        <button class="submenu-toggle level-2" aria-expanded="false" aria-controls="submenu-team">Meet the Team</button>
+                        <ul class="submenu" id="submenu-team" hidden>
+                            <li><a href="#">Leadership & Staff</a></li>
+                            <li><a href="#">Contact Directory</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Partners & Affiliations</a></li>
+                </ul>
+            </li>
+            <li class="nav-item has-submenu">
+                <button class="submenu-toggle" aria-expanded="false" aria-controls="submenu-pillars">Our Four Pillars</button>
+                <ul class="submenu" id="submenu-pillars" hidden>
+                    <li><a href="#">Veterinary Diagnostics</a></li>
+                    <li><a href="#">Disease Surveillance</a></li>
+                    <li><a href="#">Data-Driven Epidemiology</a></li>
+                    <li><a href="#">Capacity Building</a></li>
+                </ul>
+            </li>
+            <li class="nav-item has-submenu">
+                <button class="submenu-toggle" aria-expanded="false" aria-controls="submenu-submit">Submit a Sample</button>
+                <ul class="submenu" id="submenu-submit" hidden>
+                    <li><a href="#">Submission Guide & Policies</a></li>
+                    <li><a href="#">Packaging & Transport</a></li>
+                </ul>
+            </li>
+            <li class="nav-item has-submenu">
+                <button class="submenu-toggle" aria-expanded="false" aria-controls="submenu-client">Client Services</button>
+                <ul class="submenu" id="submenu-client" hidden>
+                    <li><a href="#">Request a New Account</a></li>
+                    <li><a href="#">Fee Schedule</a></li>
+                    <li><a href="#">Set Up Online Access</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-direct-link">Download Forms</a></li>
+            <li class="nav-item"><a href="#" class="nav-direct-link">Contact & Location</a></li>
+        </ul>
+
+        <div class="nav-actions">
+            <a href="#" class="nav-btn">Client Portal</a>
+            <a href="#" class="nav-btn">View Results</a>
+        </div>
+
+        <div class="nav-related">
+            <h4>RELATED SITES</h4>
+            <a href="#">Ministry of Agriculture</a>
+            <a href="#">South Ethiopia Regional State</a>
+        </div>
+    </div>
+</div>
